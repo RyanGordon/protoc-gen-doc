@@ -1,4 +1,4 @@
-module github.com/pseudomuto/protoc-gen-doc
+module github.com/RyanGordon/protoc-gen-doc
 
 require (
 	github.com/Masterminds/semver v1.4.2 // indirect
@@ -13,10 +13,12 @@ require (
 	github.com/imdario/mergo v0.3.4 // indirect
 	github.com/mwitkow/go-proto-validators v0.0.0-20180403085117-0950a7990007
 	github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0 // indirect
-	github.com/pseudomuto/protokit v0.2.0
+	github.com/RyanGordon/protokit v0.2.0
 	github.com/stretchr/testify v0.0.0-20170130113145-4d4bfba8f1d1
 	golang.org/x/crypto v0.0.0-20180501155221-613d6eafa307 // indirect
 	golang.org/x/sync v0.0.0-20190412183630-56d357773e84 // indirect
 	google.golang.org/genproto v0.0.0-20181107211654-5fc9ac540362
 	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
+
+go 1.13

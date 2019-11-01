@@ -3,8 +3,8 @@ package gendoc_test
 import (
 	"testing"
 
-	. "github.com/pseudomuto/protoc-gen-doc"
-	"github.com/pseudomuto/protokit/utils"
+	. "github.com/RyanGordon/protoc-gen-doc"
+	"github.com/RyanGordon/protokit/utils"
 )
 
 func BenchmarkParseCodeRequest(b *testing.B) {

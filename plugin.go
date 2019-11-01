@@ -10,7 +10,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	plugin_go "github.com/golang/protobuf/protoc-gen-go/plugin"
-	"github.com/pseudomuto/protokit"
+	"github.com/RyanGordon/protokit"
 )
 
 // PluginOptions encapsulates options for the plugin. The type of renderer, template file, and the name of the output
@@ -23,7 +23,7 @@ type PluginOptions struct {
 	SourceRelative bool
 }
 
-// Plugin describes a protoc code generate plugin. It's an implementation of Plugin from github.com/pseudomuto/protokit
+// Plugin describes a protoc code generate plugin. It's an implementation of Plugin from github.com/RyanGordon/protokit
 type Plugin struct{}
 
 // Generate compiles the documentation and generates the CodeGeneratorResponse to send back to protoc. It does this
