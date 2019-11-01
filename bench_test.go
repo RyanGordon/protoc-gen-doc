@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	. "github.com/RyanGordon/protoc-gen-doc"
-	"github.com/RyanGordon/protokit/utils"
+	"github.com/pseudomuto/protokit/utils"
 )
 
 func BenchmarkParseCodeRequest(b *testing.B) {

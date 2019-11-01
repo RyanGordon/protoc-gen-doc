@@ -8,7 +8,7 @@ import (
 	plugin_go "github.com/golang/protobuf/protoc-gen-go/plugin"
 	. "github.com/RyanGordon/protoc-gen-doc"
 	"github.com/stretchr/testify/require"
-	"github.com/RyanGordon/protokit/utils"
+	"github.com/pseudomuto/protokit/utils"
 )
 
 func TestParseOptionsForBuiltinTemplates(t *testing.T) {
